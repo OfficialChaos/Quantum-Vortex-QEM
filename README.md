@@ -1,2 +1,2 @@
-# Quantum-Vortex-QEM
-Implementation of Z13/Z32 singularity mapping for Quantum Error Mitigation in noisy systems.
+# Fluid-Dynamic Stability Filtering for Quantum Error Mitigation
+Physics-informed ZNE validation using Navier-Stokes energy norms and Fibonacci noise scaling. Flags hallucinated corrections in NISQ circuits.
