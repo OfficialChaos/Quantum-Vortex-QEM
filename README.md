@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18827720)
+[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18827721)
 [![arXiv](https://img.shields.io/badge/arXiv-pending-red.svg)]()
 
 ---
@@ -163,7 +163,7 @@ This work draws on:
 - [x] Fibonacci vs linear vs odd comparison
 - [x] Figures generated (fig1, fig2)
 - [ ] Paper draft finalized on Overleaf
-- [ ] Zenodo DOI minted
+- [x] Zenodo DOI minted — 10.5281/zenodo.18827721
 - [ ] arXiv submission (quant-ph)
 
 ---
