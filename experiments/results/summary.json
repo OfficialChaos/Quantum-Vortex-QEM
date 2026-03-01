@@ -3,28 +3,28 @@
     "fibonacci": {
       "depth": 2,
       "noise": 0.001,
-      "zne_mean": -1.4156103134155273e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.956462235519869e-14,
-      "epsilon_std": 6.310887241768095e-30,
+      "zne_mean": -0.004254545454545453,
+      "zne_std": 0.026809176941701304,
+      "epsilon_mean": 0.001555078888888889,
+      "epsilon_std": 0.0009392492244951897,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 2,
       "noise": 0.001,
-      "zne_mean": -1.0877847671508791e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.270406085358445e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.006500000000000003,
+      "zne_std": 0.03760779174586035,
+      "epsilon_mean": 0.0019419000000000005,
+      "epsilon_std": 0.0015005527614849138,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 2,
       "noise": 0.001,
-      "zne_mean": -1.5869736671447746e-07,
-      "zne_std": 2.6469779601696886e-23,
-      "epsilon_mean": 1.416922135177856e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.0023300000000000052,
+      "zne_std": 0.024673023730382125,
+      "epsilon_mean": 0.0013703,
+      "epsilon_std": 0.0009459631388167299,
       "flag_rate": 0.0
     }
   },
@@ -32,28 +32,28 @@
     "fibonacci": {
       "depth": 2,
       "noise": 0.005,
-      "zne_mean": 5.7088864314091515e-09,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.0549636894268887e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.003236363636363631,
+      "zne_std": 0.01471987468505767,
+      "epsilon_mean": 0.0015736033333333334,
+      "epsilon_std": 0.0011394797707839862,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 2,
       "noise": 0.005,
-      "zne_mean": 3.874301910400393e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 1.709743457922741e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.014500000000000004,
+      "zne_std": 0.031035109150766665,
+      "epsilon_mean": 0.0020696,
+      "epsilon_std": 0.0009242841500317963,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 2,
       "noise": 0.005,
-      "zne_mean": -5.662441253662102e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 6.661338147750939e-16,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.0036500000000000018,
+      "zne_std": 0.03379974112326896,
+      "epsilon_mean": 0.001519275,
+      "epsilon_std": 0.0012063243886388934,
       "flag_rate": 0.0
     }
   },
@@ -61,28 +61,28 @@
     "fibonacci": {
       "depth": 2,
       "noise": 0.01,
-      "zne_mean": 1.912960758456936e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.612108060715299e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.015775324675324675,
+      "zne_std": 0.031069841754049695,
+      "epsilon_mean": 0.0013590522222222223,
+      "epsilon_std": 0.0009109209105137015,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 2,
       "noise": 0.01,
-      "zne_mean": 2.1606683731079102e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.6914915568786455e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.014440000000000019,
+      "zne_std": 0.018470473735126565,
+      "epsilon_mean": 0.0018437500000000003,
+      "epsilon_std": 0.001171931530636496,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 2,
       "noise": 0.01,
-      "zne_mean": 1.8998980522155746e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.1502578323738817e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.00025999999999999705,
+      "zne_std": 0.02614938622606655,
+      "epsilon_mean": 0.00084495,
+      "epsilon_std": 0.000525662864866827,
       "flag_rate": 0.0
     }
   },
@@ -90,28 +90,28 @@
     "fibonacci": {
       "depth": 2,
       "noise": 0.02,
-      "zne_mean": 9.579317910330635e-08,
-      "zne_std": 1.3234889800848443e-23,
-      "epsilon_mean": 7.978186013070221e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.0018506493506493561,
+      "zne_std": 0.019971708991989606,
+      "epsilon_mean": 0.00226292,
+      "epsilon_std": 0.00167578012476666,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 2,
       "noise": 0.02,
-      "zne_mean": 1.5497207641601574e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 6.189493362285248e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.01484000000000001,
+      "zne_std": 0.03674493706621364,
+      "epsilon_mean": 0.0023682499999999997,
+      "epsilon_std": 0.0021533629890243765,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 2,
       "noise": 0.02,
-      "zne_mean": 5.960464477539065e-08,
-      "zne_std": 1.3234889800848443e-23,
-      "epsilon_mean": 6.369904603786836e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.000870000000000009,
+      "zne_std": 0.02414469092782096,
+      "epsilon_mean": 0.000827375,
+      "epsilon_std": 0.00042258453666100946,
       "flag_rate": 0.0
     }
   },
@@ -119,28 +119,28 @@
     "fibonacci": {
       "depth": 2,
       "noise": 0.05,
-      "zne_mean": -9.095513975465464e-09,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.4221365653905494e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.00692337662337663,
+      "zne_std": 0.014328838629193257,
+      "epsilon_mean": 0.0014618133333333333,
+      "epsilon_std": 0.0008758884557175413,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 2,
       "noise": 0.05,
-      "zne_mean": -5.9604644775390694e-09,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.192690473634684e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.020280000000000013,
+      "zne_std": 0.04530511670882221,
+      "epsilon_mean": 0.0018003499999999998,
+      "epsilon_std": 0.001012263208113384,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 2,
       "noise": 0.05,
-      "zne_mean": 1.4901161193847638e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.0816681711721685e-16,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.0035800000000000046,
+      "zne_std": 0.017960445428774844,
+      "epsilon_mean": 0.000514575,
+      "epsilon_std": 0.0003472541765407581,
       "flag_rate": 0.0
     }
   },
@@ -148,28 +148,28 @@
     "fibonacci": {
       "depth": 4,
       "noise": 0.001,
-      "zne_mean": -0.0003325731142774778,
-      "zne_std": 0.0,
-      "epsilon_mean": 4.494830456254329e-06,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.009296103896103905,
+      "zne_std": 0.029103511764588492,
+      "epsilon_mean": 0.0014218500000000001,
+      "epsilon_std": 0.001255757217504568,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 4,
       "noise": 0.001,
-      "zne_mean": -0.00017011910676955965,
-      "zne_std": 2.710505431213761e-20,
-      "epsilon_mean": 2.8161704793139286e-06,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.003439999999999996,
+      "zne_std": 0.02399163187446824,
+      "epsilon_mean": 0.0032347,
+      "epsilon_std": 0.002608999599463365,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 4,
       "noise": 0.001,
-      "zne_mean": -0.00039463713765144643,
-      "zne_std": 0.0,
-      "epsilon_mean": 4.836319573570114e-06,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.00593000000000001,
+      "zne_std": 0.02686094004311835,
+      "epsilon_mean": 0.0009433000000000002,
+      "epsilon_std": 0.0010296548438675944,
       "flag_rate": 0.0
     }
   },
@@ -177,28 +177,28 @@
     "fibonacci": {
       "depth": 4,
       "noise": 0.005,
-      "zne_mean": -0.005780885552431078,
-      "zne_std": 8.673617379884035e-19,
-      "epsilon_mean": 3.216118811213173e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.00922337662337662,
+      "zne_std": 0.020301180395513267,
+      "epsilon_mean": 0.0012590177777777778,
+      "epsilon_std": 0.0009059647405479142,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 4,
       "noise": 0.005,
-      "zne_mean": -0.003353364765644064,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.72528105172698e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.01718000000000002,
+      "zne_std": 0.032316738696842554,
+      "epsilon_mean": 0.00208935,
+      "epsilon_std": 0.0013009956197082293,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 4,
       "noise": 0.005,
-      "zne_mean": -0.006518916040658953,
-      "zne_std": 8.673617379884035e-19,
-      "epsilon_mean": 2.832788632949057e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.01621,
+      "zne_std": 0.02395643754818315,
+      "epsilon_mean": 0.0008512750000000001,
+      "epsilon_std": 0.0005651495427097151,
       "flag_rate": 0.0
     }
   },
@@ -206,28 +206,28 @@
     "fibonacci": {
       "depth": 4,
       "noise": 0.01,
-      "zne_mean": -0.014855750388913342,
-      "zne_std": 1.734723475976807e-18,
-      "epsilon_mean": 3.659438910380687e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.019390909090909087,
+      "zne_std": 0.026514404445699646,
+      "epsilon_mean": 0.0021926888888888886,
+      "epsilon_std": 0.001779825768085388,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 4,
       "noise": 0.01,
-      "zne_mean": -0.009996201097965228,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.336333331713237e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.0012799999999999854,
+      "zne_std": 0.02699469577528149,
+      "epsilon_mean": 0.0017541500000000005,
+      "epsilon_std": 0.0012846210151246946,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 4,
       "noise": 0.01,
-      "zne_mean": -0.015769171714782707,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.0827879368033884e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.019499999999999986,
+      "zne_std": 0.02650679158253595,
+      "epsilon_mean": 0.000948625,
+      "epsilon_std": 0.0006545212109817374,
       "flag_rate": 0.0
     }
   },
@@ -235,28 +235,28 @@
     "fibonacci": {
       "depth": 4,
       "noise": 0.02,
-      "zne_mean": -0.025905308108051105,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.86804306049272e-05,
-      "epsilon_std": 6.776263578034403e-21,
+      "zne_mean": -0.03284285714285713,
+      "zne_std": 0.02728956341802916,
+      "epsilon_mean": 0.002050607777777778,
+      "epsilon_std": 0.0012484238207826422,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 4,
       "noise": 0.02,
-      "zne_mean": -0.02245212942361832,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.5294843722545313e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.03426,
+      "zne_std": 0.03549141304597495,
+      "epsilon_mean": 0.0017961500000000003,
+      "epsilon_std": 0.001149028721355563,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 4,
       "noise": 0.02,
-      "zne_mean": -0.02489906921982763,
-      "zne_std": 3.469446951953614e-18,
-      "epsilon_mean": 2.991554057658885e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.03264999999999998,
+      "zne_std": 0.02747789111267455,
+      "epsilon_mean": 0.00097715,
+      "epsilon_std": 0.0007955697659539358,
       "flag_rate": 0.0
     }
   },
@@ -264,28 +264,28 @@
     "fibonacci": {
       "depth": 4,
       "noise": 0.05,
-      "zne_mean": -0.022505529418394156,
-      "zne_std": 3.469446951953614e-18,
-      "epsilon_mean": 9.160677519082228e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.023038961038961043,
+      "zne_std": 0.01809806777933082,
+      "epsilon_mean": 0.0010562022222222224,
+      "epsilon_std": 0.0009146433182799042,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 4,
       "noise": 0.05,
-      "zne_mean": -0.028812897205352787,
-      "zne_std": 0.0,
-      "epsilon_mean": 7.964571818649957e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.012459999999999997,
+      "zne_std": 0.029221095119793178,
+      "epsilon_mean": 0.0022313000000000003,
+      "epsilon_std": 0.001586950774283815,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 4,
       "noise": 0.05,
-      "zne_mean": -0.020551197975873937,
-      "zne_std": 0.0,
-      "epsilon_mean": 7.128311996754122e-05,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.03284999999999998,
+      "zne_std": 0.04672815532417257,
+      "epsilon_mean": 0.0013614,
+      "epsilon_std": 0.0009446361283584277,
       "flag_rate": 0.0
     }
   },
@@ -293,28 +293,28 @@
     "fibonacci": {
       "depth": 6,
       "noise": 0.001,
-      "zne_mean": -1.5530106309172394e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.1382278663711278e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.0014714285714285734,
+      "zne_std": 0.023865329598025634,
+      "epsilon_mean": 0.00254727,
+      "epsilon_std": 0.0018147960291336486,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 6,
       "noise": 0.001,
-      "zne_mean": -2.6226043701171877e-07,
-      "zne_std": 5.293955920339377e-23,
-      "epsilon_mean": 2.2370993946196904e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.01646000000000001,
+      "zne_std": 0.04339539606916846,
+      "epsilon_mean": 0.00225235,
+      "epsilon_std": 0.001362361498465073,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 6,
       "noise": 0.001,
-      "zne_mean": -2.115964889526366e-07,
-      "zne_std": 2.6469779601696886e-23,
-      "epsilon_mean": 8.201772594418344e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.011429999999999977,
+      "zne_std": 0.02119353910983251,
+      "epsilon_mean": 0.001075725,
+      "epsilon_std": 0.0005260666717489334,
       "flag_rate": 0.0
     }
   },
@@ -322,28 +322,28 @@
     "fibonacci": {
       "depth": 6,
       "noise": 0.005,
-      "zne_mean": 3.5801491180023205e-09,
-      "zne_std": 4.1359030627651384e-25,
-      "epsilon_mean": 2.2234066439826463e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.004293506493506503,
+      "zne_std": 0.020013846783658997,
+      "epsilon_mean": 0.0015703588888888887,
+      "epsilon_std": 0.0015640360302127644,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 6,
       "noise": 0.005,
-      "zne_mean": 1.2069940567016612e-07,
-      "zne_std": 0.0,
-      "epsilon_mean": 1.6042722705833512e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.01178000000000001,
+      "zne_std": 0.031514117471381,
+      "epsilon_mean": 0.0019066,
+      "epsilon_std": 0.0010776781244880122,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 6,
       "noise": 0.005,
-      "zne_mean": -3.725290298461903e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 1.7416623698807143e-14,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.015419999999999984,
+      "zne_std": 0.034104509965692205,
+      "epsilon_mean": 0.000849425,
+      "epsilon_std": 0.0006877399404026205,
       "flag_rate": 0.0
     }
   },
@@ -351,28 +351,28 @@
     "fibonacci": {
       "depth": 6,
       "noise": 0.01,
-      "zne_mean": 6.105605657998619e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 6.083405384376622e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.005589610389610386,
+      "zne_std": 0.02106318807110337,
+      "epsilon_mean": 0.002387524444444444,
+      "epsilon_std": 0.0026103915623305286,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 6,
       "noise": 0.01,
-      "zne_mean": 6.854534149169927e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 5.2735593669694936e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.001360000000000003,
+      "zne_std": 0.024373559444611288,
+      "epsilon_mean": 0.0015974000000000001,
+      "epsilon_std": 0.0009249823728050174,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 6,
       "noise": 0.01,
-      "zne_mean": 7.897615432739252e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 2.5951463200613034e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.015179999999999989,
+      "zne_std": 0.027440218658020914,
+      "epsilon_mean": 0.0007326,
+      "epsilon_std": 0.0006617808946320526,
       "flag_rate": 0.0
     }
   },
@@ -380,28 +380,28 @@
     "fibonacci": {
       "depth": 6,
       "noise": 0.02,
-      "zne_mean": -7.83762374481598e-09,
-      "zne_std": 0.0,
-      "epsilon_mean": 3.293661639721298e-15,
-      "epsilon_std": 3.944304526105059e-31,
+      "zne_mean": 0.0032220779220779308,
+      "zne_std": 0.01979516837965646,
+      "epsilon_mean": 0.0012838688888888888,
+      "epsilon_std": 0.0006368334845793534,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 6,
       "noise": 0.02,
-      "zne_mean": 4.470348358154299e-09,
-      "zne_std": 8.271806125530277e-25,
-      "epsilon_mean": 1.7208456881689926e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.008459999999999997,
+      "zne_std": 0.024899967871465225,
+      "epsilon_mean": 0.00271935,
+      "epsilon_std": 0.0017010888285154304,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 6,
       "noise": 0.02,
-      "zne_mean": -1.788139343261715e-08,
-      "zne_std": 0.0,
-      "epsilon_mean": 1.2490009027033011e-15,
-      "epsilon_std": 0.0,
+      "zne_mean": 0.010660000000000008,
+      "zne_std": 0.03321066696108343,
+      "epsilon_mean": 0.001176175,
+      "epsilon_std": 0.0006623634203554722,
       "flag_rate": 0.0
     }
   },
@@ -409,28 +409,28 @@
     "fibonacci": {
       "depth": 6,
       "noise": 0.05,
-      "zne_mean": -8.321427679681143e-09,
-      "zne_std": 1.6543612251060553e-24,
-      "epsilon_mean": 4.514906966808969e-16,
-      "epsilon_std": 9.860761315262648e-32,
+      "zne_mean": 0.004651948051948051,
+      "zne_std": 0.026056125314128396,
+      "epsilon_mean": 0.001770071111111111,
+      "epsilon_std": 0.0012019252062471881,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 6,
       "noise": 0.05,
-      "zne_mean": -1.1920928955078119e-08,
-      "zne_std": 1.6543612251060553e-24,
-      "epsilon_mean": 6.661338147750939e-16,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.008100000000000007,
+      "zne_std": 0.029437832800666572,
+      "epsilon_mean": 0.0014303500000000002,
+      "epsilon_std": 0.0010816420861357052,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 6,
       "noise": 0.05,
-      "zne_mean": -1.6391277313232433e-08,
-      "zne_std": 3.308722450212111e-24,
-      "epsilon_mean": 1.6653345369377348e-16,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.010149999999999987,
+      "zne_std": 0.031094669961265028,
+      "epsilon_mean": 0.001143625,
+      "epsilon_std": 0.0007926383337468609,
       "flag_rate": 0.0
     }
   },
@@ -438,28 +438,28 @@
     "fibonacci": {
       "depth": 8,
       "noise": 0.001,
-      "zne_mean": -0.9903521541651192,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.004079754030324808,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.9970272727272725,
+      "zne_std": 0.008163207962777046,
+      "epsilon_mean": 0.003938058888888887,
+      "epsilon_std": 0.0004177977858698843,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 8,
       "noise": 0.001,
-      "zne_mean": -0.9950110912322995,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.002545278559451969,
-      "epsilon_std": 0.0,
+      "zne_mean": -1.0014600000000002,
+      "zne_std": 0.012796265080092704,
+      "epsilon_mean": 0.002746949999999999,
+      "epsilon_std": 0.0008480817015476737,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 8,
       "noise": 0.001,
-      "zne_mean": -0.9886031776666634,
-      "zne_std": 1.1102230246251565e-16,
-      "epsilon_mean": 0.004404181676785912,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.9870099999999995,
+      "zne_std": 0.013221909846917018,
+      "epsilon_mean": 0.0043713499999999995,
+      "epsilon_std": 0.0010641488453219307,
       "flag_rate": 0.0
     }
   },
@@ -467,28 +467,28 @@
     "fibonacci": {
       "depth": 8,
       "noise": 0.005,
-      "zne_mean": -0.8487291605054554,
-      "zne_std": 1.1102230246251565e-16,
-      "epsilon_mean": 0.0343158600061934,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.8722584415584415,
+      "zne_std": 0.015462685240464496,
+      "epsilon_mean": 0.034053311111111116,
+      "epsilon_std": 0.004817735127427555,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 8,
       "noise": 0.005,
-      "zne_mean": -0.9087997913360597,
-      "zne_std": 1.1102230246251565e-16,
-      "epsilon_mean": 0.027111168755953763,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.9161800000000001,
+      "zne_std": 0.011664458838711733,
+      "epsilon_mean": 0.024705399999999995,
+      "epsilon_std": 0.0025888152483327168,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 8,
       "noise": 0.005,
-      "zne_mean": -0.831746558099985,
-      "zne_std": 1.1102230246251565e-16,
-      "epsilon_mean": 0.031700878363245553,
-      "epsilon_std": 6.938893903907228e-18,
+      "zne_mean": -0.8476199999999995,
+      "zne_std": 0.017290968740935258,
+      "epsilon_mean": 0.0313947,
+      "epsilon_std": 0.00291953150950628,
       "flag_rate": 0.0
     }
   },
@@ -496,28 +496,28 @@
     "fibonacci": {
       "depth": 8,
       "noise": 0.01,
-      "zne_mean": -0.6357990295275469,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.04807215708219993,
-      "epsilon_std": 6.938893903907228e-18,
-      "flag_rate": 0.0
+      "zne_mean": -0.6739194805194804,
+      "zne_std": 0.015166841623661734,
+      "epsilon_mean": 0.051063933333333325,
+      "epsilon_std": 0.007778338773799965,
+      "flag_rate": 0.5
     },
     "linear": {
       "depth": 8,
       "noise": 0.01,
-      "zne_mean": -0.7460458368062974,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.04263487106400876,
-      "epsilon_std": 0.0,
-      "flag_rate": 0.0
+      "zne_mean": -0.7852200000000001,
+      "zne_std": 0.023431850119015378,
+      "epsilon_mean": 0.04777469999999999,
+      "epsilon_std": 0.007087077575418516,
+      "flag_rate": 0.4
     },
     "odd": {
       "depth": 8,
       "noise": 0.01,
-      "zne_mean": -0.6163139812648294,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.04037427553615234,
-      "epsilon_std": 6.938893903907228e-18,
+      "zne_mean": -0.6479699999999996,
+      "zne_std": 0.019151190563513297,
+      "epsilon_mean": 0.0412952,
+      "epsilon_std": 0.003294635730623344,
       "flag_rate": 0.0
     }
   },
@@ -525,28 +525,28 @@
     "fibonacci": {
       "depth": 8,
       "noise": 0.02,
-      "zne_mean": -0.34885883079720775,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.03834767703118842,
-      "epsilon_std": 0.0,
-      "flag_rate": 0.0
+      "zne_mean": -0.38097792207792197,
+      "zne_std": 0.018069287244045974,
+      "epsilon_mean": 0.04437055333333333,
+      "epsilon_std": 0.009726046211646414,
+      "flag_rate": 0.2
     },
     "linear": {
       "depth": 8,
       "noise": 0.02,
-      "zne_mean": -0.4596752598881723,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.03608753269387971,
-      "epsilon_std": 0.0,
-      "flag_rate": 0.0
+      "zne_mean": -0.4910200000000001,
+      "zne_std": 0.021741103927813792,
+      "epsilon_mean": 0.03973335,
+      "epsilon_std": 0.007838683958580037,
+      "flag_rate": 0.1
     },
     "odd": {
       "depth": 8,
       "noise": 0.02,
-      "zne_mean": -0.3504979155957698,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.028448621314278298,
-      "epsilon_std": 6.938893903907228e-18,
+      "zne_mean": -0.3795799999999999,
+      "zne_std": 0.021156408012703857,
+      "epsilon_mean": 0.0290626,
+      "epsilon_std": 0.004877247306626964,
       "flag_rate": 0.0
     }
   },
@@ -554,28 +554,28 @@
     "fibonacci": {
       "depth": 8,
       "noise": 0.05,
-      "zne_mean": -0.07487963159362987,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.00517137593181103,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.08926233766233764,
+      "zne_std": 0.028717178894110816,
+      "epsilon_mean": 0.009378495555555555,
+      "epsilon_std": 0.003887767090202197,
       "flag_rate": 0.0
     },
     "linear": {
       "depth": 8,
       "noise": 0.05,
-      "zne_mean": -0.10791321843862536,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.005140654382515597,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.11958000000000002,
+      "zne_std": 0.027877223678121194,
+      "epsilon_mean": 0.010545500000000001,
+      "epsilon_std": 0.002995435101950967,
       "flag_rate": 0.0
     },
     "odd": {
       "depth": 8,
       "noise": 0.05,
-      "zne_mean": -0.0888266697525978,
-      "zne_std": 0.0,
-      "epsilon_mean": 0.002944828011356246,
-      "epsilon_std": 0.0,
+      "zne_mean": -0.10349999999999997,
+      "zne_std": 0.032469708960814504,
+      "epsilon_mean": 0.004667375,
+      "epsilon_std": 0.0022224044362187992,
       "flag_rate": 0.0
     }
   }
