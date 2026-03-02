@@ -85,6 +85,63 @@ energy dissipation theory, treating the ZNE extrapolation curve as a
 discretized velocity field and flagging outputs whose gradient energy norm
 exceeds a physical threshold.
 
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Zero-Noise Extrapolation Variants}
+
+Since its introduction by Temme et al.~\cite{Temme2017} and Li and
+Benjamin~\cite{Li2017}, ZNE has been extended in several directions.
+Giurgica-Tiron et al.~\cite{GiurgicaTiron2020} introduced digital noise
+scaling via unitary folding and studied multiple extrapolation methods
+including Richardson extrapolation, demonstrating error reductions of up
+to 24$\times$ over non-mitigated circuits. Krebsbach et
+al.~\cite{Krebsbach2022} analyzed the optimization of Richardson
+extrapolation specifically for QEM, establishing theoretical bounds on
+its performance. Most recently, direct polynomial analysis of ZNE with
+explicit error bounds was provided by~\cite{DirectZNE2025}, offering
+the most rigorous theoretical treatment to date.
+
+Crucially, none of these works address the \emph{reliability} of a given
+ZNE output — the question of whether a specific extrapolation has
+converged to a physically meaningful value or diverged into an artifact.
+Our stability filter addresses this gap directly.
+
+\subsection{Noise Scaling Schedule Selection}
+
+The choice of noise scale factors has received limited formal attention.
+Standard implementations use linear~\cite{Temme2017} or
+odd-integer~\cite{LaRose2022} schedules, with the latter preferred for
+gate-level folding to preserve circuit structure. A noise-aware folding
+method was proposed by~\cite{NoiseAwareFolding2024}, which redistributes
+noise amplification based on hardware characteristics, representing the
+closest prior work to our schedule investigation. However, no prior work
+has systematically compared schedule spacing distributions or proposed
+golden-ratio-motivated schedules for ZNE.
+
+\subsection{ZNE on Hardware and Logical Qubits}
+
+ZNE has been demonstrated experimentally on superconducting
+qubits~\cite{NatComm2025ZNE}, silicon spin
+qubits~\cite{PRA2025Silicon}, and quantum annealing
+platforms~\cite{npjQI2025Annealing}, confirming its broad applicability
+across qubit modalities. Our work focuses on simulation-level validation
+of scheduling and filtering methods, complementary to these
+hardware demonstrations.
+
+\subsection{Physics-Informed Methods in Quantum Computing}
+
+The use of physical constraints to validate or improve quantum
+computations is an emerging direction. Physics-informed neural
+networks~\cite{Raissi2019} have been applied to quantum simulation
+problems, and stability criteria from fluid dynamics have been used
+as convergence monitors in classical numerical methods. Our work is the
+first, to our knowledge, to apply Navier-Stokes energy dissipation
+norms as a post-hoc reliability criterion for quantum error mitigation
+outputs.
+
 % ─────────────────────────────────────────────────────────────────────────────
 \section{Background}
 \label{sec:background}
