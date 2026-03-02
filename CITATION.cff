@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Kleipe
+    given-names: Shawn G.
+    orcid: https://orcid.org/0009-0002-2480-2430
+title: "Fluid-Dynamic Stability Filtering for Zero-Noise Extrapolation in NISQ-Era Quantum Circuits"
+version: v0.2.0
+doi: 10.5281/zenodo.18830306
+date-released: 2026-03-02
+url: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
+repository-code: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
+license: MIT
+keywords:
+  - quantum error mitigation
+  - zero-noise extrapolation
+  - navier-stokes
+  - fibonacci
+  - nisq
+  - cirq
+  - mitiq
+  - physics-informed methods
+abstract: "A physics-informed validation framework for Zero-Noise Extrapolation in NISQ circuits. Introduces a Navier-Stokes energy dissipation filter and Fibonacci noise scaling schedule, evaluated across 1,620 experiment runs covering 3 circuit types, 3 extrapolants and 6 noise levels."
