@@ -162,7 +162,7 @@ This work draws on:
 - [x] Baseline experiments complete
 - [x] Fibonacci vs linear vs odd comparison
 - [x] Figures generated (fig1, fig2)
-- [ ] Paper draft finalized on Overleaf
+- [x] Paper draft finalized on Overleaf
 - [x] Zenodo DOI minted — 10.5281/zenodo.18827721
 - [ ] arXiv submission (quant-ph)
 
