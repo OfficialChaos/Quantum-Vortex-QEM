@@ -175,7 +175,7 @@ This work draws on:
   author = {Kleipe, Shawn G.},
   title  = {Fluid-Dynamic Stability Filtering for Quantum Error Mitigation},
   year   = {2026},
-  doi    = {10.5281/zenodo.18827721},
+  doi    = {10.5281/zenodo.18830306},
   url    = {https://github.com/OfficialChaos/Quantum-Vortex-QEM},
   orcid  = {0009-0002-2480-2430}
 }
