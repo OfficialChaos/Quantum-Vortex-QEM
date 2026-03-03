@@ -1,2 +1,4 @@
 "__pycache__/" 
 "*.pyc" 
+"project_config.yaml" 
+"update_all.py" 

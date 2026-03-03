@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18827721)
+[![DOI](https://zenodo.org/badge/1169766876.svg)](https://doi.org/10.5281/zenodo.18830306)
 [![arXiv](https://img.shields.io/badge/arXiv-pending-red.svg)]()
 
 ---
@@ -175,7 +175,7 @@ This work draws on:
   author = {Kleipe, Shawn G.},
   title  = {Fluid-Dynamic Stability Filtering for Quantum Error Mitigation},
   year   = {2026},
-  doi    = {10.5281/zenodo.18827721},
+  doi    = {10.5281/zenodo.18830306},
   url    = {https://github.com/OfficialChaos/Quantum-Vortex-QEM},
   orcid  = {0009-0002-2480-2430}
 }

@@ -1,0 +1,49 @@
+# project_config.yaml
+# ─────────────────────────────────────────────────────────────────
+# Single source of truth for all project metadata.
+# Edit this file when anything changes, then run update_all.py
+# ─────────────────────────────────────────────────────────────────
+
+author:
+  name: "Shawn G. Kleipe"
+  orcid: "0009-0002-2480-2430"
+  github: "OfficialChaos"
+  email: ""
+
+project:
+  title: "Fluid-Dynamic Stability Filtering for Zero-Noise Extrapolation in NISQ-Era Quantum Circuits"
+  github_url: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
+  version: "0.3.0"
+  year: "2026"
+  license: "MIT"
+
+zenodo:
+  doi: "10.5281/zenodo.18830306"
+  url: "https://doi.org/10.5281/zenodo.18830306"
+  version_note: "v0.3.0"
+
+arxiv:
+  id: "PENDING"
+  url: "PENDING"
+  category: "quant-ph"
+
+experiments:
+  total_runs: 2880
+  circuit_types: 3
+  schedules: 3
+  extrapolants: 3
+  depths: 8
+  noise_levels: 8
+  trials: 10
+  shots: 500
+
+# ─────────────────────────────────────────────────────────────────
+# MANUAL UPDATE CHECKLIST
+# Run update_all.py first, then update these manually:
+# ─────────────────────────────────────────────────────────────────
+# [ ] ORCID — work entry DOI
+# [ ] Academia.edu — paper DOI field
+# [ ] LinkedIn — Zenodo link in OfficialChaos.com position
+# [ ] GitHub profile README — DOI badge
+# [ ] Zenodo record — title, author, ORCID
+# [ ] Overleaf — upload new main.tex, recompile, download PDF
