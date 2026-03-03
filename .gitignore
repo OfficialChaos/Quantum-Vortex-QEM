@@ -3,3 +3,4 @@
 "project_config.yaml" 
 "update_all.py" 
 "paper/zenodo_metadata.yaml" 
+"compile_paper.py" 

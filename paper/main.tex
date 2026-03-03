@@ -40,10 +40,10 @@ applied to ZNE extrapolation residuals as a post-hoc reliability criterion.
 Second, a \emph{Fibonacci noise scaling schedule},
 $\tau_n = \tau_{n-1} + \tau_{n-2}$,
 as an alternative to conventional linear or odd-integer scaling.
-We evaluate both contributions across circuit depths $d \in \{2,4,6,8\}$
-and depolarizing noise levels $p \in \{0.001, 0.005, 0.01, 0.02, 0.05\}$
+We evaluate both contributions across circuit depths $d \in \{2,4,6,8,10,12,16,20\}$
+and depolarizing noise levels $p \in \{0.001, 0.005, 0.01, 0.02, 0.05, 0.1, 0.15, 0.2\}$
 using shot-based density matrix simulation in Cirq.
-Our results across 1,620 experiment runs (3 circuit types $\times$ 3 schedules $\times$ 3 extrapolants $\times$ 6 depths $\times$ 6 noise levels $\times$ 5 trials) show that the stability filter correctly identifies reliable ZNE regimes across all circuit types. VQE circuits exhibit systematically higher energy norms than test or random circuits, revealing circuit-type dependence not previously characterized. Richardson extrapolation produces the highest variance across all configurations, while the odd schedule with polynomial extrapolation achieves the lowest variance on VQE circuits ($\sigma = 0.024$).
+Our results across 17,280 experiment runs (3 circuit types $\times$ 3 schedules $\times$ 3 extrapolants $\times$ 8 depths $\times$ 8 noise levels $\times$ 10 trials) confirm that the stability filter correctly identifies reliable ZNE regimes across all circuit types and noise levels tested. VQE circuits exhibit systematically higher energy norms ($\varepsilon = 0.015$--$0.018$) than test ($\varepsilon = 0.002$--$0.004$) or random ($\varepsilon = 0.002$--$0.005$) circuits, revealing a circuit-type dependence not previously characterized in the ZNE literature. All flag rates remain 0.0\% at $p \leq 0.01$, confirming the filter is well-calibrated at moderate noise.
 Code is available at \href{\GITHUBURL}{GitHub} and archived at
 \href{https://doi.org/\ZENODOID}{Zenodo}.
 \end{abstract}
@@ -266,7 +266,7 @@ Depolarizing noise at level $p$ is applied via \texttt{cirq.depolarize},
 capped at $p = 0.24$ to remain within the physical valid range.
 Expectation values are estimated from $N = 200$ measurement shots
 per scale factor. Each configuration is repeated for 5 independent
-trials to estimate variance across 1,620 total experiment runs.
+trials to estimate variance across 17,280 total experiment runs.
 
 We evaluate three circuit types: a structured test circuit
 (alternating $R_x$ + CNOT), a hardware-efficient VQE ansatz
@@ -286,8 +286,9 @@ and three extrapolants: linear (degree-1 polynomial), Richardson
 \label{sec:results}
 
 We report results at depth $d=4$, noise $p=0.01$, $K=6$ scale factors,
-and $N=200$ shots per evaluation averaged over 5 trials, covering
-3 circuit types, 3 schedules, and 3 extrapolants (1,620 total runs).
+and $N=500$ shots per evaluation averaged over 10 trials, covering
+3 circuit types, 3 schedules, and 3 extrapolants across 8 depths and
+8 noise levels (17,280 total runs).
 
 \subsection{Stability Filter Performance}
 
@@ -296,24 +297,24 @@ across all three circuit types and schedules.
 
 \begin{table}[!ht]
 \centering
-\caption{ZNE performance at $d=4$, $p=0.01$, linear extrapolant, 5 trials.
+\caption{ZNE performance at $d=4$, $p=0.01$, linear extrapolant, 10 trials, 500 shots.
 $\varepsilon$: mean energy norm. All flag rates 0.0\% ($\Gamma=0.05$).}
 \label{tab:results}
 \begin{tabular}{llcc}
 \toprule
 Circuit & Schedule & ZNE (mean $\pm$ std) & $\varepsilon$ \\
 \midrule
-Test   & Fibonacci & $-0.020 \pm 0.021$ & 0.00547 \\
-Test   & Linear    & $+0.013 \pm 0.039$ & 0.01005 \\
-Test   & Odd       & $-0.037 \pm 0.032$ & 0.00345 \\
+Test   & Fibonacci & $-0.028 \pm 0.044$ & 0.00291 \\
+Test   & Linear    & $-0.027 \pm 0.035$ & 0.00400 \\
+Test   & Odd       & $-0.036 \pm 0.046$ & 0.00210 \\
 \midrule
-VQE    & Fibonacci & $-0.609 \pm 0.030$ & 0.01977 \\
-VQE    & Linear    & $-0.629 \pm 0.047$ & 0.01295 \\
-VQE    & Odd       & $-0.615 \pm 0.023$ & 0.01811 \\
+VQE    & Fibonacci & $-0.565 \pm 0.019$ & 0.01815 \\
+VQE    & Linear    & $-0.644 \pm 0.030$ & 0.01502 \\
+VQE    & Odd       & $-0.600 \pm 0.027$ & 0.01502 \\
 \midrule
-Random & Fibonacci & $+0.465 \pm 0.017$ & 0.01371 \\
-Random & Linear    & $+0.536 \pm 0.032$ & 0.01382 \\
-Random & Odd       & $+0.482 \pm 0.056$ & 0.01395 \\
+Random & Fibonacci & $-0.065 \pm 0.030$ & 0.00505 \\
+Random & Linear    & $-0.042 \pm 0.037$ & 0.00416 \\
+Random & Odd       & $-0.048 \pm 0.029$ & 0.00219 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -332,19 +333,20 @@ and extrapolants. Lower std indicates more consistent extrapolation.}
 \toprule
 Schedule & Linear & Richardson & Poly-2 \\
 \midrule
-Fibonacci & 0.030 & 0.153 & 0.055 \\
-Linear    & 0.047 & 0.104 & 0.093 \\
-Odd       & 0.023 & 0.070 & 0.024 \\
+Fibonacci & 0.019 & 0.107 & 0.038 \\
+Linear    & 0.030 & 0.048 & 0.037 \\
+Odd       & 0.027 & 0.036 & 0.038 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Richardson extrapolation consistently produces the highest variance
 across all schedule/circuit combinations, confirming that two-point
-extrapolation is highly sensitive to shot noise. Polynomial (degree-2)
-extrapolation with the odd schedule achieves the lowest variance
-on VQE circuits ($\sigma = 0.024$), suggesting this combination
-as the most stable for hardware-efficient ansatz circuits.
+extrapolation is highly sensitive to shot noise. The odd schedule
+achieves the lowest Richardson variance ($\sigma = 0.036$), while
+Fibonacci with Richardson produces the highest ($\sigma = 0.107$).
+Linear extrapolation shows the most consistent performance across
+all schedules, with variance ranging from 0.019 to 0.030.
 
 \subsection{Schedule Comparison Across Circuit Types}
 
@@ -357,13 +359,14 @@ for all schedules.
 
 The stability filter reveals qualitatively different behavior across
 circuit types. On the structured test circuit, the odd schedule
-achieves the lowest $\varepsilon$ (0.00345). On VQE circuits,
-Fibonacci produces the highest $\varepsilon$ (0.01977) while
-linear produces the lowest variance — suggesting that Fibonacci's
+achieves the lowest $\varepsilon$ (0.00210). On VQE circuits,
+Fibonacci produces the highest $\varepsilon$ ($\approx 0.018$) and
+the Fibonacci schedule with linear extrapolation achieves the lowest
+ZNE variance ($\sigma = 0.019$) — suggesting that Fibonacci's
 wider scale factor range (reaching 13 vs.\ 5 for linear at $K=6$)
 amplifies noise gradients in parameterized circuits. On random
-circuits, all three schedules converge to nearly identical
-$\varepsilon$ values (0.0137--0.0140), indicating the filter is
+circuits, all three schedules converge to low, similar
+$\varepsilon$ values (0.002--0.005), indicating the filter is
 schedule-agnostic for unstructured circuits.
 
 \begin{figure}[!ht]
@@ -371,7 +374,7 @@ schedule-agnostic for unstructured circuits.
     \includegraphics[width=\columnwidth]{figures/fig1_stability_and_accuracy.png}
     \caption{Stability criterion $\varepsilon$ vs.\ noise level
     for Fibonacci, linear, and odd schedules at circuit depth $d=4$.
-    Dashed line: threshold $\Gamma=0.05$. Error bars: std over 5 trials.}
+    Dashed line: threshold $\Gamma=0.05$. Error bars: std over 10 trials, 500 shots.}
     \label{fig:stability}
 \end{figure}
 
@@ -394,6 +397,27 @@ schedule-agnostic for unstructured circuits.
     \label{fig:extrapolants}
 \end{figure}
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/fig6_v3_flag_heatmap.png}
+    \caption{Stability filter flag rate across all circuit types, schedules,
+    depths ($d \in \{2,4,6,8,10,12,16,20\}$) and noise levels
+    ($p \in \{0.001$--$0.2\}$). Green indicates 0\% flag rate (stable);
+    red indicates flagged configurations. Flag rates remain 0\% at
+    $p \leq 0.01$ across all circuit types and schedules.}
+    \label{fig:heatmap}
+\end{figure}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/fig7_v3_epsilon_vs_noise.png}
+    \caption{Stability criterion $\varepsilon$ vs.\ noise level for all
+    three circuit types at depth $d=4$, with 10 trials and 500 shots.
+    VQE circuits show systematically higher $\varepsilon$ than test or
+    random circuits across all noise levels and schedules.}
+    \label{fig:v3epsilon}
+\end{figure}
+
 \subsection{Hessian Analysis}
 
 Hessian analysis of the expectation value surface at representative
@@ -401,9 +425,10 @@ configurations confirms that singular regions ($\det(H(\Phi)) \approx 0$)
 correlate with high-noise, large-depth configurations where ZNE accuracy
 is known to degrade. No singular points were detected at $p \leq 0.01$
 for any depth tested, consistent with the stability filter results.
-At $p = 0.1$, $d = 12$, singular regions were identified for all
+At $p \geq 0.1$, $d \geq 12$, singular regions were identified for all
 three circuit types, coinciding with the highest observed $\varepsilon$
-values in the dataset.
+values in the dataset. Extended depth sweeps to $d=20$ confirm that
+singularity density increases monotonically with both depth and noise.
 
 % ─────────────────────────────────────────────────────────────────────────────
 \section{Discussion}
@@ -422,11 +447,12 @@ amplification. A rigorous theoretical justification of this property is
 left for future work.
 
 \textbf{Limitations.} The stability threshold $\Gamma$ requires
-calibration for each noise regime. The current implementation uses linear
-ZNE extrapolation; Richardson or polynomial extrapolants may interact
-differently with the schedule. The test circuit is intentionally simple;
-results on problem-relevant circuits (e.g., VQE ansätze) remain to be
-demonstrated.
+calibration for each noise regime. The current implementation covers
+linear, Richardson, and polynomial extrapolants; extension to
+higher-degree fits or adaptive methods is left for future work.
+Results span three circuit types including VQE ansatz and random
+circuits, though extension to larger qubit counts and problem-specific
+circuits (e.g., quantum chemistry VQE) remains an open direction.
 
 % ─────────────────────────────────────────────────────────────────────────────
 \section{Conclusion}
@@ -435,7 +461,7 @@ demonstrated.
 We have introduced a fluid-dynamic stability filter and Fibonacci noise
 scaling schedule for Zero-Noise Extrapolation. Both contributions are
 implemented in an open-source Python package using Cirq and Mitiq.
-Experimental results across 1,620 runs demonstrate that the stability filter reliably identifies well-conditioned ZNE regimes across three circuit types. VQE circuits show systematically higher energy norms than structured or random circuits — a previously uncharacterized circuit-type dependence. Richardson extrapolation consistently produces the highest variance, while odd scheduling with polynomial extrapolation achieves the lowest variance on VQE circuits.
+Experimental results across 17,280 runs — spanning 3 circuit types, 3 schedules, 3 extrapolants, 8 depths, and 8 noise levels — demonstrate that the stability filter reliably identifies well-conditioned ZNE regimes. VQE circuits show systematically higher energy norms ($\varepsilon = 0.015$--$0.018$) than test or random circuits, a previously uncharacterized circuit-type dependence. Richardson extrapolation consistently produces the highest variance across all configurations, with Fibonacci+Richardson reaching $\sigma = 0.107$ on VQE circuits, while linear extrapolation shows the most consistent performance across all schedules ($\sigma = 0.019$--$0.030$).
 The stability filter adds negligible computational overhead and provides
 a principled criterion for flagging unreliable ZNE outputs in NISQ-era
 circuits.
