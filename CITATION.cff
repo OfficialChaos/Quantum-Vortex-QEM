@@ -6,8 +6,8 @@ authors:
     orcid: https://orcid.org/0009-0002-2480-2430
 title: "Fluid-Dynamic Stability Filtering for Zero-Noise Extrapolation in NISQ-Era Quantum Circuits"
 version: v0.3.0
-doi: 10.5281/zenodo.18830306
-date-released: 2026-03-02
+doi: 10.5281/zenodo.18849515
+date-released: 2026-03-03
 url: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
 repository-code: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
 license: MIT
@@ -20,4 +20,4 @@ keywords:
   - cirq
   - mitiq
   - physics-informed methods
-abstract: "A physics-informed validation framework for Zero-Noise Extrapolation in NISQ circuits. Introduces a Navier-Stokes energy dissipation filter and Fibonacci noise scaling schedule, evaluated across 1,620 experiment runs covering 3 circuit types, 3 extrapolants and 6 noise levels."
+abstract: "A physics-informed validation framework for Zero-Noise Extrapolation in NISQ circuits. Introduces a Navier-Stokes energy dissipation filter and Fibonacci noise scaling schedule, evaluated across 17,280 experiment runs covering 3 circuit types, 3 schedules, 3 extrapolants, 8 depths and 8 noise levels."
