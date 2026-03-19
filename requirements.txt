@@ -5,3 +5,5 @@ scipy>=1.12.0
 matplotlib>=3.8.0
 jupyter>=1.0.0
 notebook>=7.0.0
+qiskit>=1.0.0
+qiskit-ibm-runtime>=0.20.0

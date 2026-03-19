@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-19T01:38:17Z",
+    "backend": "ibm_fez",
+    "shots": 1024,
+    "trials": 5,
+    "gamma_sim": 0.05,
+    "gamma_hw": 0.1,
+    "nu": 0.5,
+    "job_id": "d6tl74k69uic73chacvg",
+    "elapsed_s": 101.9,
+    "paper_version": "v0.4.0",
+    "experiment": 2
+  },
+  "results": {
+    "qaoa_fibonacci_d2": {
+      "circuit": "qaoa",
+      "schedule": "fibonacci",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0016228675842285157,
+      "epsilon_std": 0.0007740889656060486,
+      "zne_mean": 0.04767645474137931,
+      "zne_std": 0.014532966699166759,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "qaoa_fibonacci_d4": {
+      "circuit": "qaoa",
+      "schedule": "fibonacci",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0011242866516113282,
+      "epsilon_std": 0.00043908209502455255,
+      "zne_mean": 0.49676724137931033,
+      "zne_std": 0.030282159230568952,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "qaoa_linear_d2": {
+      "circuit": "qaoa",
+      "schedule": "linear",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0012899398803710937,
+      "epsilon_std": 0.00107800850836004,
+      "zne_mean": 0.03439453125,
+      "zne_std": 0.018968795851725884,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "qaoa_linear_d4": {
+      "circuit": "qaoa",
+      "schedule": "linear",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.001784515380859375,
+      "epsilon_std": 0.0010062628739355144,
+      "zne_mean": 0.5025976562500001,
+      "zne_std": 0.019301836248615298,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "random_fibonacci_d2": {
+      "circuit": "random",
+      "schedule": "fibonacci",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0008401870727539062,
+      "epsilon_std": 0.0006425371063876304,
+      "zne_mean": -0.7850501751077585,
+      "zne_std": 0.011282445100834948,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "random_fibonacci_d4": {
+      "circuit": "random",
+      "schedule": "fibonacci",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0007269859313964843,
+      "epsilon_std": 0.0005240887335615024,
+      "zne_mean": -0.561895541487069,
+      "zne_std": 0.023197712153251573,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "random_linear_d2": {
+      "circuit": "random",
+      "schedule": "linear",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0010555267333984375,
+      "epsilon_std": 0.0009614017981487076,
+      "zne_mean": -0.7787695312499999,
+      "zne_std": 0.014218240246700367,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "random_linear_d4": {
+      "circuit": "random",
+      "schedule": "linear",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.002586174011230469,
+      "epsilon_std": 0.002238822669752671,
+      "zne_mean": -0.57150390625,
+      "zne_std": 0.03120757618398612,
+      "flag_sim": false,
+      "flag_hw": false
+    }
+  }
+}

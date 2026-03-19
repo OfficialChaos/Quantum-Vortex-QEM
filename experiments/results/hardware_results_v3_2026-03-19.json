@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-19T02:22:56Z",
+    "backend": "ibm_torino",
+    "shots": 1024,
+    "trials": 5,
+    "gamma_sim": 0.05,
+    "gamma_hw": 0.1,
+    "nu": 0.5,
+    "job_id": "d6tls2c69uic73chb3q0",
+    "elapsed_s": 66.6,
+    "paper_version": "v0.4.0",
+    "experiment": 3
+  },
+  "results": {
+    "test_fibonacci_d6": {
+      "circuit": "test",
+      "schedule": "fibonacci",
+      "depth": 6,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.002068328857421875,
+      "epsilon_std": 0.0009063727727238666,
+      "zne_mean": 0.02382475754310345,
+      "zne_std": 0.024083337447311125,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "test_fibonacci_d8": {
+      "circuit": "test",
+      "schedule": "fibonacci",
+      "depth": 8,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0005724906921386718,
+      "epsilon_std": 0.00031913476669605896,
+      "zne_mean": -0.7042935075431034,
+      "zne_std": 0.01437851590720792,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "test_linear_d6": {
+      "circuit": "test",
+      "schedule": "linear",
+      "depth": 6,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0027933120727539062,
+      "epsilon_std": 0.001963344951824377,
+      "zne_mean": 0.0054296875000000005,
+      "zne_std": 0.024288159736158287,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "test_linear_d8": {
+      "circuit": "test",
+      "schedule": "linear",
+      "depth": 8,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0005311965942382812,
+      "epsilon_std": 0.0004030801269180096,
+      "zne_mean": -0.7091406250000001,
+      "zne_std": 0.01991484633976191,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_fibonacci_d6": {
+      "circuit": "vqe",
+      "schedule": "fibonacci",
+      "depth": 6,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.001333141326904297,
+      "epsilon_std": 0.0013848364940024136,
+      "zne_mean": -0.3447888604525863,
+      "zne_std": 0.012217468923090611,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_fibonacci_d8": {
+      "circuit": "vqe",
+      "schedule": "fibonacci",
+      "depth": 8,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.00045194625854492185,
+      "epsilon_std": 0.00010067494890162887,
+      "zne_mean": -0.705517578125,
+      "zne_std": 0.021057990859125037,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_linear_d6": {
+      "circuit": "vqe",
+      "schedule": "linear",
+      "depth": 6,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.002017784118652344,
+      "epsilon_std": 0.0012720415909862632,
+      "zne_mean": -0.35167968750000006,
+      "zne_std": 0.020749082981666393,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_linear_d8": {
+      "circuit": "vqe",
+      "schedule": "linear",
+      "depth": 8,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0012468338012695313,
+      "epsilon_std": 0.0008721979336598657,
+      "zne_mean": -0.7072070312500001,
+      "zne_std": 0.01606953104109947,
+      "flag_sim": false,
+      "flag_hw": false
+    }
+  }
+}

@@ -58,29 +58,27 @@ class StabilityFilter:
     def compute_epsilon(self, expectation_values: np.ndarray,
                         scale_factors: np.ndarray) -> float:
         """
-        Compute ε = ν ∫ ||∇u||² dΩ over the extrapolation curve.
+        Compute ε ≈ ν Σ_k ((ΔO/Δλ)² · Δλ) — paper Eq.(3).
+
+        This is a discrete H¹ Sobolev regularity functional on the ZNE
+        curve, using forward-difference quadrature to match the paper's
+        implementation exactly.
 
         Parameters
         ----------
         expectation_values : array of ZNE expectation values at each scale factor
-        scale_factors      : corresponding noise scale factors (the Ω discretization)
+        scale_factors      : corresponding noise scale factors
 
         Returns
         -------
         epsilon : float — the energy dissipation norm
         """
-        # Compute gradient of the expectation value curve: ∇u
-        gradients = np.gradient(expectation_values, scale_factors)
-
-        # Compute ||∇u||² pointwise
-        grad_sq = gradients ** 2
-
-        # Integrate over Ω using trapezoidal rule
-        integral = np.trapz(grad_sq, scale_factors)
-
-        # Apply viscosity constant
-        epsilon = self.nu * integral
-        return epsilon
+        eps = 0.0
+        for i in range(len(scale_factors) - 1):
+            dO = expectation_values[i+1] - expectation_values[i]
+            dl = scale_factors[i+1] - scale_factors[i]
+            eps += (dO / dl)**2 * dl
+        return self.nu * eps
 
     def evaluate(self, expectation_values: np.ndarray,
                  scale_factors: np.ndarray,
@@ -100,10 +98,15 @@ class StabilityFilter:
         """
         threshold = gamma if gamma is not None else self.gamma
 
-        gradients = np.gradient(expectation_values, scale_factors)
-        grad_sq = gradients ** 2
-        integral = np.trapz(grad_sq, scale_factors)
-        epsilon = self.nu * integral
+        eps = 0.0
+        for i in range(len(scale_factors) - 1):
+            dO = expectation_values[i+1] - expectation_values[i]
+            dl = scale_factors[i+1] - scale_factors[i]
+            eps += (dO / dl)**2 * dl
+        epsilon = self.nu * eps
+
+        # gradient_norm = ε / ν for backwards compatibility
+        integral = eps
 
         is_stable = epsilon < threshold
 

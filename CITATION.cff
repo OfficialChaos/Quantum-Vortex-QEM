@@ -5,9 +5,9 @@ authors:
     given-names: Shawn G.
     orcid: https://orcid.org/0009-0002-2480-2430
 title: "Fluid-Dynamic Stability Filtering for Zero-Noise Extrapolation in NISQ-Era Quantum Circuits"
-version: v0.3.0
-doi: 10.5281/zenodo.18849515
-date-released: 2026-03-03
+version: v0.4.0
+doi: 10.5281/zenodo.18827720
+date-released: 2026-03-19
 url: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
 repository-code: "https://github.com/OfficialChaos/Quantum-Vortex-QEM"
 license: MIT
@@ -19,5 +19,20 @@ keywords:
   - nisq
   - cirq
   - mitiq
+  - qiskit
   - physics-informed methods
-abstract: "A physics-informed validation framework for Zero-Noise Extrapolation in NISQ circuits. Introduces a Navier-Stokes energy dissipation filter and Fibonacci noise scaling schedule, evaluated across 17,280 experiment runs covering 3 circuit types, 3 schedules, 3 extrapolants, 8 depths and 8 noise levels."
+  - hardware validation
+  - IBM Quantum
+  - stability filter
+  - noise scaling schedules
+  - Lucas sequence
+abstract: "A physics-informed post-hoc reliability framework for Zero-Noise Extrapolation
+  in NISQ circuits. Introduces (i) a fluid-dynamic stability filter based on a discrete
+  H1 Sobolev regularity functional on the ZNE curve, and (ii) five structured noise
+  scaling schedules (Fibonacci, Lucas, prime-anchored, linear, odd-integer) evaluated
+  against all four standard extrapolants (linear, Richardson, poly-2, poly-3).
+  Validated across 153,600 simulation runs (4 circuit types x 5 schedules x 4
+  extrapolants x 3 qubit counts x 8 depths x 8 noise levels x 10 trials) and 120
+  hardware trials on IBM Quantum processors ibm_fez (Heron r2) and ibm_torino
+  (Heron r1). All 24 hardware conditions pass the simulation-calibrated threshold
+  Gamma=0.05 with maximum observed epsilon=0.00285 (5.7% of Gamma)."

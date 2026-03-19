@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-19T01:35:10Z",
+    "backend": "ibm_fez",
+    "shots": 1024,
+    "trials": 5,
+    "gamma_sim": 0.05,
+    "gamma_hw": 0.1,
+    "nu": 0.5,
+    "job_id": "d6tl5m0v5rlc73f30jd0",
+    "elapsed_s": 81.0,
+    "paper_version": "v0.4.0"
+  },
+  "results": {
+    "test_fibonacci_d2": {
+      "circuit": "test",
+      "schedule": "fibonacci",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0018801689147949219,
+      "epsilon_std": 0.001378814628907812,
+      "zne_mean": -0.2950279498922414,
+      "zne_std": 0.01972451018751853,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "test_fibonacci_d4": {
+      "circuit": "test",
+      "schedule": "fibonacci",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0015420913696289062,
+      "epsilon_std": 0.0013376946609224725,
+      "zne_mean": 0.10898942618534482,
+      "zne_std": 0.015254714847909256,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "test_linear_d2": {
+      "circuit": "test",
+      "schedule": "linear",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0018795013427734375,
+      "epsilon_std": 0.0011924264670018787,
+      "zne_mean": -0.2945703125,
+      "zne_std": 0.027321880205056413,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "test_linear_d4": {
+      "circuit": "test",
+      "schedule": "linear",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0028545379638671873,
+      "epsilon_std": 0.0027586159002977034,
+      "zne_mean": 0.08568359375,
+      "zne_std": 0.016203829390426895,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_fibonacci_d2": {
+      "circuit": "vqe",
+      "schedule": "fibonacci",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.0017934799194335937,
+      "epsilon_std": 0.0015985414074475872,
+      "zne_mean": -0.19315396012931033,
+      "zne_std": 0.01845155025489211,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_fibonacci_d4": {
+      "circuit": "vqe",
+      "schedule": "fibonacci",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        9,
+        13
+      ],
+      "epsilon_mean": 0.00047121047973632815,
+      "epsilon_std": 0.0003224579190431214,
+      "zne_mean": -0.5482842807112069,
+      "zne_std": 0.008449000019497159,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_linear_d2": {
+      "circuit": "vqe",
+      "schedule": "linear",
+      "depth": 2,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0009792327880859375,
+      "epsilon_std": 0.0003776508870523799,
+      "zne_mean": -0.18314453125000002,
+      "zne_std": 0.01609588312623079,
+      "flag_sim": false,
+      "flag_hw": false
+    },
+    "vqe_linear_d4": {
+      "circuit": "vqe",
+      "schedule": "linear",
+      "depth": 4,
+      "n_qubits": 2,
+      "shots": 1024,
+      "trials": 5,
+      "lambdas": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "epsilon_mean": 0.0012012481689453124,
+      "epsilon_std": 0.0004864590140276856,
+      "zne_mean": -0.54978515625,
+      "zne_std": 0.017760598040984937,
+      "flag_sim": false,
+      "flag_hw": false
+    }
+  }
+}
