@@ -31,6 +31,17 @@ hardware trials** on IBM Quantum processors ibm\_fez (Heron r2) and ibm\_torino 
 
 ---
 
+## Stack
+
+[![Cirq](https://img.shields.io/badge/Cirq-1.3+-lightgrey)](https://quantumai.google/cirq)
+[![Mitiq](https://img.shields.io/badge/Mitiq-0.38+-lightgrey)](https://mitiq.readthedocs.io/)
+[![Qiskit](https://img.shields.io/badge/Qiskit-1.0+-6929C4)](https://www.ibm.com/quantum/qiskit)
+[![IBM Quantum](https://img.shields.io/badge/IBM%20Quantum-0268C2)](https://quantum.cloud.ibm.com)
+[![IBM Torino](https://img.shields.io/badge/IBM_Torino-133_Qubits_Heron_r1-161616?logo=ibm&logoColor=white)](https://quantum.cloud.ibm.com)
+[![IBM Fez](https://img.shields.io/badge/IBM_Fez-156_Qubits_Heron_r2-161616?logo=ibm&logoColor=white)](https://quantum.cloud.ibm.com)
+
+---
+
 ## Key Results
 
 | Finding | Result |
